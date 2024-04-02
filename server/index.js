@@ -11,8 +11,11 @@ const io = new Server(server, {
   cors: {
     origin: "http://localhost:3000",
     methods: ["GET", "POST"],
+    
   },
 });
+console.log("error");
+
 
 io.on("connection", (socket) => {
   console.log(`User Connected: ${socket.id}`);
@@ -31,6 +34,6 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(3001, () => {
+server.listen(3005, () => {
   console.log("SERVER RUNNING");
 });
