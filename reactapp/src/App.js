@@ -17,6 +17,7 @@ function App() {
     }
   };
 
+ 
   return (
     <div className="App flex justify-center items-center h-screen">
       {!showChat ? (
@@ -45,7 +46,18 @@ function App() {
             >
               Join A Room
             </button>
+
+            <a
+            href="https://imgur.com/a/UBk5Os1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-40 h-8 bg-purple-800 text-white rounded hover:bg-green-700 flex items-center justify-center"
+             >
+            Meme 😊
+            </a>
+
           </div>
+          
         </div>
       ) : (
         <Chat socket={socket} username={username} room={room} />
