@@ -1,5 +1,5 @@
 Project Link:
-https://qqcdac-chatapp.netlify.app/
+https://manthan-chatapp.netlify.app
 
 ### Technology - React.js, Socket.io, and Tailwind CSS
 
